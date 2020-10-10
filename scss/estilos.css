@@ -1,0 +1,581 @@
+.navegador {
+  text-align: center;
+  margin-top: 1rem;
+  position: fixed;
+  overflow: hidden;
+  background-color: #fcfcfc;
+  width: 100%;
+  padding: 2rem 2rem;
+  z-index: 1;
+}
+
+.navegador a {
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  color: #020000;
+  /*  margin-left: 1rem; */
+  margin-right: 4rem;
+}
+
+.home {
+  margin-left: 2rem;
+  margin-top: 3rem;
+  position: fixed;
+  top: 0;
+  /* background-color:rgb(255, 255, 255); */
+  /* background: size 2; */
+  /*  width: 100%;  */
+  font-family: Roboto, sans-serif;
+  color: #1b1a1a;
+  text-decoration: none;
+  z-index: 2;
+  padding: 1rem;
+  border-radius: 2px;
+}
+
+.TituloProyectos {
+  font-family: roboto, sans-serif;
+  color: #252525;
+  text-align-last: center;
+  margin: 5rem;
+  padding-top: 8rem;
+}
+
+.tituloSecciones p {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.tituloBio {
+  font-family: Roboto, sans-serif;
+  margin-top: 3rem;
+  /*  margin-left: 10rem; */
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.tituloBio img {
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px #c9c7c7;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* index----------------------INDEX----------------------------INDEX------------INDEX--------------------INDEX---------------------------------- */
+.imagenFondoIndex {
+  background-image: url(../img/11-0084.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.titulo {
+  color: #131212;
+  font-family: Roboto, sans-serif;
+  word-spacing: 1rem;
+  text-align: center;
+  margin-top: 4rem;
+  letter-spacing: 1em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: 100px 350px 100px;
+  grid-template-areas: " fotoYvideo fotoYvideo fotoYvideo" "trabajos proyectos bio" "contacto contacto contacto";
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  margin-top: 5rem;
+}
+
+#fotoYvideo {
+  grid-area: fotoYvideo;
+  display: none;
+}
+
+#fotoYvideo:hover {
+  background-color: rgba(216, 215, 215, 0.178);
+}
+
+.grid:hover #fotoYvideo {
+  display: inline-block;
+}
+
+#bio {
+  grid-area: bio;
+  display: none;
+  padding-top: 10rem;
+}
+
+#bio:hover {
+  background-color: rgba(216, 215, 215, 0.178);
+}
+
+.grid:hover #bio {
+  display: inline-block;
+}
+
+#trabajos {
+  grid-area: trabajos;
+  display: none;
+  padding-top: 10rem;
+}
+
+#trabajos:hover {
+  background-color: rgba(216, 215, 215, 0.178);
+}
+
+.grid:hover #trabajos {
+  display: inline-block;
+}
+
+#proyectos {
+  grid-area: proyectos;
+  display: none;
+  padding-top: 10rem;
+}
+
+#proyectos:hover {
+  background-color: rgba(216, 215, 215, 0.178);
+}
+
+.grid:hover #proyectos {
+  display: inline-block;
+}
+
+#contacto {
+  grid-area: contacto;
+  display: none;
+}
+
+#contacto:hover {
+  background-color: rgba(216, 215, 215, 0.178);
+}
+
+.grid:hover #contacto {
+  display: inline-block;
+}
+
+.secciones {
+  border: 1px solid #585757;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #131212;
+  text-align: center;
+  padding-top: 2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.secciones:hover {
+  color: white;
+  border: 2px solid #ececf1;
+}
+
+/* MEDIA INDEX--------------------------MEDIA INDEX----------------------MEDIA INDEX-----------------------------MEDIA INDEX------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  .imagenFondoIndex {
+    /*  background-image: none; */
+    background-color: white;
+    width: 100%;
+  }
+  .titulo {
+    /* word-spacing:20px; */
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .grid {
+    width: 100%;
+    height: 56px;
+    background-color: #f8f2f2;
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "fotoYvideo proyectos trabajos bio contacto";
+    grid-column-gap: 0px;
+  }
+  .secciones {
+    color: #131212;
+    flex-grow: 1;
+    font-size: 11px;
+    padding-top: 20px;
+    font-family: Roboto, sans-serif;
+  }
+  #fotoYvideo {
+    display: inline;
+    grid-area: fotoYvideo;
+    /* nada sucede */
+    border-color: #adadad;
+    border-radius: 2px;
+    border-left: none;
+    border-top: none;
+    padding-top: 20%;
+  }
+  #trabajos {
+    display: inline;
+    border-color: #adadad;
+    border-radius: 2px;
+    padding-top: 20%;
+    border-left: none;
+    border-top: none;
+  }
+  #proyectos {
+    display: inline;
+    border-color: #adadad;
+    border-radius: 2px;
+    padding-top: 20%;
+    border-left: none;
+    border-top: none;
+  }
+  #bio {
+    display: inline-block;
+    border-color: #adadad;
+    border-radius: 2px;
+    padding-top: 20%;
+    border-left: none;
+    border-top: none;
+  }
+  #contacto {
+    display: inline;
+    border-color: #adadad;
+    border-radius: 2px;
+    border-left: none;
+    border-top: none;
+  }
+}
+
+/*BIO-----------------------BIO---------------------------BIO------------------------BIO---------------------BIO--------------------BIO-------------------------BIO-------------------------------------------------------------------------------*/
+.container-fluid {
+  margin-top: 3rem;
+}
+
+p {
+  color: #20201f;
+}
+
+.claseP {
+  color: black;
+}
+
+/* PROYECTOS  -----------------PROYECTOS---------------------PROYECTOS-------------------PROYECTOS-------------------------------PROYECTOS-------------------------------------------------------------*/
+.contenedorProyectos {
+  /*  width:100vw;
+    height: 100vh;  */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedorProyectos img {
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px #dfdfdf;
+  width: 350px;
+}
+
+.contenedorProyectos figure {
+  position: relative;
+  overflow: hidden;
+  /* height: 50%;
+      width:40%;
+      border-radius: 3px;
+      box-shadow: 5px 5px 20px rgb(190, 190, 190);
+      margin-bottom: 20rem;
+      border: 1px solid red; */
+}
+
+.contenedorProyectos figure .textoBiomas {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: rgba(255, 255, 255, 0.863);
+  opacity: 0;
+  transition: all 500ms ease-out;
+  visibility: hidden;
+  text-align: center;
+  padding-top: 1rem;
+  font-family: roboto, sans-serif;
+}
+
+.contenedorProyectos figure:hover > .textoBiomas {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* BIOMAS Y HUNTER___________________________BIOMAS Y HUNTER_____________________________BIOMAS Y HUNTER__________________BIOMAS Y HUNTER_______________________________BIOMAS Y HUNTER_____________ */
+.header__hunterYbiomas {
+  color: #131212;
+  text-align: center;
+}
+
+.containerFotoHunterYbiomas {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.containerFotoHunterYbiomas .img__hYb {
+  margin: 2rem;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px cornsilk;
+  height: 75vh;
+}
+
+/* TRABAJOS ------------------TRABAJOS---------------------------TRABAJOS--------------------------TRABAJOS--------------TRABAJOS---------------------------------------------------------------------*/
+.Contenedor__flexTrabajos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Contenedor__flexTrabajos .cajaFoto {
+  position: relative;
+  overflow: hidden;
+}
+
+.Contenedor__flexTrabajos .cajaFoto .fotoTrabajos {
+  width: 300px;
+  margin: 1rem;
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px #dfdfdf;
+}
+
+.Contenedor__flexTrabajos .cajaFoto .textoTrabajos {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  opacity: 0;
+  transition: all 500ms ease-out;
+  visibility: hidden;
+  padding-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.815);
+  font-family: Roboto, sans-serif;
+}
+
+.Contenedor__flexTrabajos .cajaFoto:hover > .textoTrabajos {
+  opacity: 1;
+  visibility: visible;
+}
+
+.Contenedor__flexTrabajos2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Contenedor__flexTrabajos2 .fotoTrabajos {
+  width: 300px;
+  margin: 1rem;
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px #dfdfdf;
+}
+
+.Contenedor__flexTrabajos2 .cajaFoto {
+  position: relative;
+  overflow: hidden;
+}
+
+.Contenedor__flexTrabajos2 .cajaFoto .textoTrabajos {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  opacity: 0;
+  transition: all 500ms ease-out;
+  visibility: hidden;
+  padding-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.863);
+  font-family: Roboto, sans-serif;
+}
+
+.Contenedor__flexTrabajos2 .cajaFoto:hover > .textoTrabajos {
+  opacity: 1;
+  visibility: visible;
+}
+
+___________________________________________
+containerTrabajos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /*  grid-auto-flow: 150px; */
+  grid-template-rows: 1fr 15px;
+  /* grid-template-areas: ; */
+  grid-gap: 1rem;
+  border: 1px solid black;
+  /* margin-top:1rem; */
+  padding: 2rem;
+  /* .containerTrabajos .trabajos{
+      position: relative;
+      margin: 0 auto;
+      
+  }
+  .containerTrabajos .trabajos .hipervinculoTrabajos{
+      position: absolute;
+      left: 5rem;
+      bottom: 0;
+      width: 5rem;
+      height: 2rem;
+  }
+    */
+  /* .hipervinculoTrabajos {
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    color: black; */
+  /*  padding: 3px;
+     justify-items: center;
+     justify-content: center;
+     align-self: center;
+     align-content: center;
+     text-align: center;
+     
+     */
+  /*  position: relative;
+      bottom: 5rem;
+      left: 10rem;
+       */
+}
+
+___________________________________________
+containerTrabajos hipervinculoTrabajos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 2rem;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  color: #161616;
+}
+
+___________________________________________
+containerTrabajos fotosHijos {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px  gainsboro;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+}
+
+.miBuenosAiresTitulo {
+  font-family: Roboto, sans-serif;
+  color: #1b1a1a;
+}
+
+.tituloTrabajos {
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+.tituloTrabajos h2 {
+  font-family: Roboto, sans-serif;
+}
+
+/* ......................................................*/
+/*  .ContenedorTanzi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    border: 1px solid black;
+  }
+  
+  .tanziHijos {
+    margin: 1rem;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    box-shadow: 5px 5px 5px rgb(192, 190, 190);
+    transition: all 2s;
+  
+    &:hover {
+      width: 30%;
+      height: 25%;
+    }
+  }
+  
+  .musica {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+    border: 1px solid black;
+    margin-top: 2rem;
+  }
+  
+  .hijosMusica {
+    margin: 1rem;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    box-shadow: 5px 5px 5px rgb(192, 190, 190);
+  } */
+/* VIDEO */
+.revistaAlmagro {
+  font-family: Roboto, sans-serif;
+  margin-top: 2rem;
+  color: red;
+}
+
+/* MI BUENOS AIRES */
+.container {
+  margin-top: 1rem;
+  border: 1px solid red;
+}
+
+.TextoMiBuenosAires {
+  text-align: center;
+  color: crimson;
+  border: 1px solid red;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 2rem;
+}
+
+/* FOTO FIJA */
+/* El titulo esta copiado de Mi Buenos Aires */
+.containerFotoFija {
+  display: flex;
+  width: 100%;
+  /* chequear esto */
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* multilinea */
+  justify-content: space-around;
+  align-content: space-around;
+  /* solo si es multilinea */
+  align-items: space-around;
+  border: 1px solid red;
+}
+
+.containerFotoFija img {
+  flex-grow: 0;
+  margin: 1rem;
+  width: 40%;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=estilos.css.map */

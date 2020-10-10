@@ -1,0 +1,35 @@
+.navegador {
+    text-align: center;
+    margin-top: 1rem;
+    position: fixed;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    padding: 2rem 2rem;
+    z-index: 1;
+  }
+  .navegador a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    color: rgb(2, 0, 0);
+  
+    /*  margin-left: 1rem; */
+    margin-right: 4rem;
+  }
+
+  .home {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    position: fixed;
+    top: 0;
+    /* background-color:rgb(255, 255, 255); */
+    /* background: size 2; */
+   /*  width: 100%;  */
+    font-family:Roboto, sans-serif;
+    color: rgb(27, 26, 26);
+    text-decoration: none;
+    z-index: 2;
+    padding: 1rem;
+    border-radius: 2px;
+    
+  }
