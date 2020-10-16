@@ -2,15 +2,28 @@
     font-family: roboto, sans-serif;
     color: rgb(37, 37, 37);
     text-align-last: center;
-    margin:5rem;
-    padding-top: 8rem;
+    margin:2rem;
+    padding-top: 2rem;
     
   }
-  .tituloSecciones p {
-    margin-top: 1rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+
+  .tituloTrabajos {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+   
+    h2 {
+      font-family: Roboto, sans-serif;
+    }
   }
+  
+.titulo__secciones__trabajo{
+  font-family:roboto, sans-serif;
+  text-align: center;}
+
+  
+
+  
 
   .tituloBio{
     font-family: Roboto, sans-serif;
@@ -28,4 +41,19 @@
 
   }
   
+  .tituloBio{
+    
+    padding-top:0;
+   }
   
+
+   /* TITULO DE SECCION BIOMAS Y HUNTER */
+   h1{
+     font-family: roboto, sans-serif;
+   }
+   
+   .tituloContacto{
+    font-family: roboto, sans-serif;
+    text-align: center;
+    margin-top: 8rem;
+  }

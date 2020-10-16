@@ -1,8 +1,8 @@
 .navegador {
   text-align: center;
   margin-top: 1rem;
-  position: fixed;
-  overflow: hidden;
+  /* position: fixed; */
+  /* overflow: hidden; */
   background-color: #fcfcfc;
   width: 100%;
   padding: 2rem 2rem;
@@ -12,14 +12,20 @@
 .navegador a {
   text-decoration: none;
   font-family: Roboto, sans-serif;
-  color: #020000;
+  color: black;
   /*  margin-left: 1rem; */
   margin-right: 4rem;
 }
 
+#nav__click {
+  color: grey;
+  padding: 3px 5px 3px 5px;
+  border-radius: 3px;
+}
+
 .home {
-  margin-left: 2rem;
-  margin-top: 3rem;
+  /* margin-left: 1rem; */
+  margin-top: 5rem;
   position: fixed;
   top: 0;
   /* background-color:rgb(255, 255, 255); */
@@ -37,14 +43,23 @@
   font-family: roboto, sans-serif;
   color: #252525;
   text-align-last: center;
-  margin: 5rem;
-  padding-top: 8rem;
+  margin: 2rem;
+  padding-top: 2rem;
 }
 
-.tituloSecciones p {
-  margin-top: 1rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+.tituloTrabajos {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.tituloTrabajos h2 {
+  font-family: Roboto, sans-serif;
+}
+
+.titulo__secciones__trabajo {
+  font-family: roboto, sans-serif;
+  text-align: center;
 }
 
 .tituloBio {
@@ -59,6 +74,21 @@
   border-radius: 2px;
   box-shadow: 1px 1px 5px #c9c7c7;
   text-align: center;
+}
+
+.tituloBio {
+  padding-top: 0;
+}
+
+/* TITULO DE SECCION BIOMAS Y HUNTER */
+h1 {
+  font-family: roboto, sans-serif;
+}
+
+.tituloContacto {
+  font-family: roboto, sans-serif;
+  text-align: center;
+  margin-top: 8rem;
 }
 
 * {
@@ -268,8 +298,8 @@ p {
 
 /* PROYECTOS  -----------------PROYECTOS---------------------PROYECTOS-------------------PROYECTOS-------------------------------PROYECTOS-------------------------------------------------------------*/
 .contenedorProyectos {
-  /*  width:100vw;
-    height: 100vh;  */
+  width: 100vw;
+  height: 80vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -314,6 +344,10 @@ p {
 }
 
 /* BIOMAS Y HUNTER___________________________BIOMAS Y HUNTER_____________________________BIOMAS Y HUNTER__________________BIOMAS Y HUNTER_______________________________BIOMAS Y HUNTER_____________ */
+.flecha {
+  position: fixed;
+}
+
 .header__hunterYbiomas {
   color: #131212;
   text-align: center;
@@ -411,129 +445,7 @@ p {
   visibility: visible;
 }
 
-___________________________________________
-containerTrabajos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  /*  grid-auto-flow: 150px; */
-  grid-template-rows: 1fr 15px;
-  /* grid-template-areas: ; */
-  grid-gap: 1rem;
-  border: 1px solid black;
-  /* margin-top:1rem; */
-  padding: 2rem;
-  /* .containerTrabajos .trabajos{
-      position: relative;
-      margin: 0 auto;
-      
-  }
-  .containerTrabajos .trabajos .hipervinculoTrabajos{
-      position: absolute;
-      left: 5rem;
-      bottom: 0;
-      width: 5rem;
-      height: 2rem;
-  }
-    */
-  /* .hipervinculoTrabajos {
-    text-decoration: none;
-    font-family: Roboto,sans-serif;
-    color: black; */
-  /*  padding: 3px;
-     justify-items: center;
-     justify-content: center;
-     align-self: center;
-     align-content: center;
-     text-align: center;
-     
-     */
-  /*  position: relative;
-      bottom: 5rem;
-      left: 10rem;
-       */
-}
-
-___________________________________________
-containerTrabajos hipervinculoTrabajos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  margin-top: 2rem;
-  text-decoration: none;
-  font-family: Roboto, sans-serif;
-  color: #161616;
-}
-
-___________________________________________
-containerTrabajos fotosHijos {
-  width: 100%;
-  height: 50%;
-  object-fit: cover;
-  border-radius: 3px;
-  box-shadow: 2px 2px 5px  gainsboro;
-}
-
-h1 {
-  font-family: Roboto, sans-serif;
-}
-
-.miBuenosAiresTitulo {
-  font-family: Roboto, sans-serif;
-  color: #1b1a1a;
-}
-
-.tituloTrabajos {
-  text-align: center;
-  margin-top: 8rem;
-  margin-bottom: 2rem;
-}
-
-.tituloTrabajos h2 {
-  font-family: Roboto, sans-serif;
-}
-
-/* ......................................................*/
-/*  .ContenedorTanzi {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-    align-content: stretch;
-    border: 1px solid black;
-  }
-  
-  .tanziHijos {
-    margin: 1rem;
-    border-radius: 10px;
-    border: 1px solid gainsboro;
-    box-shadow: 5px 5px 5px rgb(192, 190, 190);
-    transition: all 2s;
-  
-    &:hover {
-      width: 30%;
-      height: 25%;
-    }
-  }
-  
-  .musica {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: flex-start;
-    border: 1px solid black;
-    margin-top: 2rem;
-  }
-  
-  .hijosMusica {
-    margin: 1rem;
-    border-radius: 10px;
-    border: 1px solid gainsboro;
-    box-shadow: 5px 5px 5px rgb(192, 190, 190);
-  } */
+/* ENCARGOS-------------------ENCARGOS-----------------ENCARGOS-----------------ENCARGOS */
 /* VIDEO */
 .revistaAlmagro {
   font-family: Roboto, sans-serif;
@@ -542,20 +454,6 @@ h1 {
 }
 
 /* MI BUENOS AIRES */
-.container {
-  margin-top: 1rem;
-  border: 1px solid red;
-}
-
-.TextoMiBuenosAires {
-  text-align: center;
-  color: crimson;
-  border: 1px solid red;
-  margin-left: 10rem;
-  margin-right: 10rem;
-  margin-top: 2rem;
-}
-
 /* FOTO FIJA */
 /* El titulo esta copiado de Mi Buenos Aires */
 .containerFotoFija {
@@ -577,5 +475,38 @@ h1 {
   margin: 1rem;
   width: 40%;
   border-radius: 3px;
+}
+
+/* CONTACTO------------------CONTACTO----------------CONTACTO--------------CONTACTO */
+.container__contacto {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.container__contacto p {
+  font-family: roboto, sans-serif;
+}
+
+.container__contacto a {
+  font-family: roboto, sans-serif;
+  text-decoration: none;
+}
+
+/* .tituloContacto{
+  font-family: roboto, sans-serif;
+  text-align: center;
+  margin-top: 8rem;
+}
+ */
+/* COLOR FLECHAS DEL CARROUSEL */
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff5555' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff5555' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
 }
 /*# sourceMappingURL=estilos.css.map */

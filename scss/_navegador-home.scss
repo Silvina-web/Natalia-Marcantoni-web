@@ -1,8 +1,8 @@
 .navegador {
     text-align: center;
     margin-top: 1rem;
-    position: fixed;
-    overflow: hidden;
+    /* position: fixed; */
+    /* overflow: hidden; */
     background-color: rgb(252, 252, 252);
     width: 100%;
     padding: 2rem 2rem;
@@ -11,15 +11,24 @@
   .navegador a {
     text-decoration: none;
     font-family: Roboto, sans-serif;
-    color: rgb(2, 0, 0);
+    color:black;
   
     /*  margin-left: 1rem; */
     margin-right: 4rem;
   }
 
+  #nav__click{
+    color: grey; 
+    padding: 3px 5px 3px 5px;
+     border-radius: 3px;
+     
+     
+ 
+   }
+
   .home {
-    margin-left: 2rem;
-    margin-top: 3rem;
+    /* margin-left: 1rem; */
+    margin-top: 5rem;
     position: fixed;
     top: 0;
     /* background-color:rgb(255, 255, 255); */
@@ -33,3 +42,4 @@
     border-radius: 2px;
     
   }
+
