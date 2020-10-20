@@ -39,6 +39,27 @@
   border-radius: 2px;
 }
 
+@media screen and (max-width: 768px) {
+  .navegador {
+    width: 100%;
+    height: 56px;
+    background-color: #f8f2f2;
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "fotoYvideo proyectos trabajos bio contacto";
+    grid-column-gap: 0px;
+  }
+  .navegador a {
+    color: #131212;
+    flex-grow: 1;
+    font-size: 11px;
+    /* padding-top: 5%; */
+    font-family: Roboto, sans-serif;
+  }
+}
+
 .TituloProyectos {
   font-family: roboto, sans-serif;
   color: #252525;
@@ -284,6 +305,7 @@ h1 {
     display: inline;
     border-color: #adadad;
     border-radius: 2px;
+    padding-top: 20%;
     border-left: none;
     border-top: none;
   }
@@ -449,37 +471,6 @@ p {
 .Contenedor__flexTrabajos2 .cajaFoto:hover > .textoTrabajos {
   opacity: 1;
   visibility: visible;
-}
-
-/* ENCARGOS-------------------ENCARGOS-----------------ENCARGOS-----------------ENCARGOS */
-/* VIDEO */
-/*  .revistaAlmagro {
-    font-family: Roboto, sans-serif;
-    margin-top: 2rem;
-    color: red;
-  } */
-/* MI BUENOS AIRES */
-/* FOTO FIJA */
-/* El titulo esta copiado de Mi Buenos Aires */
-.containerFotoFija {
-  display: flex;
-  width: 100%;
-  /* chequear esto */
-  flex-direction: row;
-  flex-wrap: wrap;
-  /* multilinea */
-  justify-content: space-around;
-  align-content: space-around;
-  /* solo si es multilinea */
-  align-items: space-around;
-  border: 1px solid red;
-}
-
-.containerFotoFija img {
-  flex-grow: 0;
-  margin: 1rem;
-  width: 40%;
-  border-radius: 3px;
 }
 
 /* CONTACTO------------------CONTACTO----------------CONTACTO--------------CONTACTO */

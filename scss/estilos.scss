@@ -204,6 +204,7 @@
   display: inline;
   border-color: rgb(173, 173, 173);
   border-radius: 2px;
+  padding-top: 20%;
  border-left: none;
  border-top: none;
 } 
@@ -389,56 +390,7 @@
 
  
   
- /* ENCARGOS-------------------ENCARGOS-----------------ENCARGOS-----------------ENCARGOS */ 
  
-
-
-
-
-  
-  /* VIDEO */
-  
- /*  .revistaAlmagro {
-    font-family: Roboto, sans-serif;
-    margin-top: 2rem;
-    color: red;
-  } */
-  
-  /* MI BUENOS AIRES */
-  
-
-
-  
-  
-  /* FOTO FIJA */
-  
-  /* El titulo esta copiado de Mi Buenos Aires */
-  
-  .containerFotoFija{
-    display: flex;
-    width: 100%;
-  
-    /* chequear esto */
-    flex-direction: row;
-    flex-wrap: wrap;
-  
-    /* multilinea */
-    justify-content: space-around;
-    align-content: space-around;
-  
-    /* solo si es multilinea */
-    align-items: space-around;
-    border: 1px solid red;
-    
-  
-    img {
-      flex-grow: 0;
-      margin: 1rem;
-      width: 40%;
-      border-radius: 3px;
-     
-    }
-  }
 /* CONTACTO------------------CONTACTO----------------CONTACTO--------------CONTACTO */
 .container__contacto{
     display: flex;
