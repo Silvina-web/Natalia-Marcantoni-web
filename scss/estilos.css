@@ -58,6 +58,15 @@
     /* padding-top: 5%; */
     font-family: Roboto, sans-serif;
   }
+  .home {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .NataliaTitulo {
+    display: none;
+  }
 }
 
 .TituloProyectos {
@@ -116,6 +125,21 @@ h1 {
   font-family: roboto, sans-serif;
   text-align: center;
   margin-top: 8rem;
+}
+
+/* Titulo de la seccion Video , trabajos y proyectos del media query */
+.NataliaTitulo {
+  font-family: roboto, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 1;
+  color: #131212;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.NataliaTitulo a {
+  text-decoration: none;
+  color: #131212;
 }
 
 * {

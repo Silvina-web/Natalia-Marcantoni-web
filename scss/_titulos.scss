@@ -63,3 +63,22 @@
     text-align: center;
     margin-top: 8rem;
   }
+
+
+  /* Titulo de la seccion Video , trabajos y proyectos del media query */
+  .NataliaTitulo{
+    font-family: roboto, sans-serif;
+     letter-spacing: 2px;
+     font-weight: 1;
+     color: $coloresFuentes;
+     text-align: center;
+    margin-top: 2rem; 
+      
+     
+     a{
+          text-decoration: none;
+          color: $coloresFuentes;
+      }
+     
+     
+  }
