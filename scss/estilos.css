@@ -43,19 +43,18 @@
   .navegador {
     width: 100%;
     height: 56px;
-    background-color: #f8f2f2;
+    background-color: white;
     position: fixed;
     bottom: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "fotoYvideo proyectos trabajos bio contacto";
-    grid-column-gap: 0px;
+    grid-template-columns: 60px 70px 80px 50px 0px;
+    grid-template-areas: "video trabajos proyectos bio contacto";
+    /*  grid-column-gap:0px;  */
+    border: 1px solid red;
   }
   .navegador a {
     color: #131212;
-    flex-grow: 1;
     font-size: 11px;
-    /* padding-top: 5%; */
     font-family: Roboto, sans-serif;
   }
   .home {
