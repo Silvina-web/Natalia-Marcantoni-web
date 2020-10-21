@@ -64,10 +64,6 @@
   .home {
     display: none;
   }
-  .tituloVideos {
-    border: 1px solid red;
-    margin-top: 1rem;
-  }
   .tituloVideos h2 {
     font-size: 16px;
   }
@@ -85,18 +81,16 @@
   color: #252525;
   text-align-last: center;
   margin: 2rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 /* TRABAJOS */
 .tituloTrabajos {
-  text-align: center;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
-}
-
-.tituloTrabajos h2 {
-  font-family: Roboto, sans-serif;
+  font-family: roboto, sans-serif;
+  color: #252525;
+  text-align-last: center;
+  margin: 2rem;
+  padding-top: 3rem;
 }
 
 .titulo__secciones__trabajo {
@@ -131,15 +125,19 @@ h1 {
 /* Contacto */
 .tituloContacto {
   font-family: roboto, sans-serif;
-  text-align: center;
-  margin-top: 8rem;
+  color: #252525;
+  text-align-last: center;
+  margin: 2rem;
+  padding-top: 3rem;
 }
 
 /* VIDEOS */
 .tituloVideos {
   font-family: roboto, sans-serif;
-  text-align: center;
-  margin-top: 3rem;
+  color: #252525;
+  text-align-last: center;
+  margin: 2rem;
+  padding-top: 3rem;
 }
 
 /* Titulo de la seccion Video , trabajos y proyectos del media query */
