@@ -45,7 +45,7 @@
 
 
   @media  screen and (max-width: 768px){
-      .navegador{
+ .navegador{
       
         height: 56px;
         background-color: rgb(255, 255, 255);
@@ -57,8 +57,7 @@
         grid-template-areas:"video trabajos proyectos bio contacto";
         grid-column-gap: 0px; 
          
-        
-        a{
+         a{
             color:$coloresFuentes;
             font-size: 11px;
             font-family: Roboto, sans-serif;
@@ -71,18 +70,31 @@
 padding: none;
 border-radius: none;
 
-   
 }
 
-
-
-
-    .home{
+.home{
           display: none;
     
 }
+.tituloVideos{
+    border:1px solid red;
+    margin-top: 1rem; 
+   h2{
+        font-size: 16px;
+       
+    }
+}
+
+
+
 
 }
+
+
+
+
+
+
 
 @media screen and (min-width: 768px){
     .NataliaTitulo{
