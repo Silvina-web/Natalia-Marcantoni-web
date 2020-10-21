@@ -53,7 +53,7 @@
         bottom:0;
         display: grid;
         grid-template-rows: 100px;
-        grid-auto-columns: 20% 20% 20% 20%;
+        grid-auto-columns: 20% 20% 20% 30% 20%;
         grid-template-areas:"video trabajos proyectos contacto bio" ;
         grid-column-gap: 0px;
         
@@ -65,11 +65,7 @@
             font-family: Roboto, sans-serif;
             
 
-            
-            
-            
-  
-        }
+             }
       }
 
     .home{

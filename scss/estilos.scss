@@ -126,7 +126,7 @@
  
 @media  screen and (max-width: 768px) {
   .imagenFondoIndex {
-   /*  background-image: none; */
+    background-image: none; 
     background-color: rgb(255, 255, 255);
     width: 100%;
 
@@ -141,7 +141,7 @@
   .grid{
     width: 100%;
     height: 56px;
-    background-color: rgb(248, 242, 242);
+    background-color: rgb(255, 255, 255);
     position: fixed;
     bottom:0;
     display: grid;
@@ -163,12 +163,13 @@
 
  #fotoYvideo{
   display: inline;
-  grid-area: fotoYvideo;/* nada sucede */
+  
    border-color: rgb(173, 173, 173);  
   border-radius: 2px;
   border-left: none;
  border-top: none;
  padding-top: 20%;
+ text-transform: capitalize;
   
   
   
@@ -180,6 +181,7 @@
   padding-top: 20%;
   border-left: none;
  border-top: none;
+ text-transform: capitalize;
  
   
 }
@@ -190,7 +192,7 @@
   padding-top: 20%;
   border-left: none;
  border-top: none;
- 
+ text-transform: capitalize;
 }
 #bio{
   display: inline-block;
@@ -199,6 +201,7 @@
   padding-top: 20%;
   border-left: none;
  border-top: none;
+ text-transform: capitalize;
 }
 #contacto{
   display: inline;
@@ -207,6 +210,7 @@
   padding-top: 20%;
  border-left: none;
  border-top: none;
+ text-transform: capitalize;
 } 
 }
 
@@ -288,17 +292,18 @@
  }
 
 .header__hunterYbiomas{
-  color:$coloresFuentes;
+color:$coloresFuentes;
  text-align: center;
  
- 
-}
+ }
+
 .containerFotoHunterYbiomas{
   width: fit-content;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
+  margin-top: 3rem;
 .img__hYb {
   margin:2rem;
   border-radius: 2px;
@@ -409,12 +414,6 @@
   }
   
 }
-/* .tituloContacto{
-  font-family: roboto, sans-serif;
-  text-align: center;
-  margin-top: 8rem;
-}
- */
 
 
 
