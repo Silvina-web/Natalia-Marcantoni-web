@@ -1,7 +1,7 @@
 
-/* PROYECTOS */
+/* titulo de video, trabajos, proyectos, contacto*/
 
-.TituloProyectos {
+.titulo__principal {
     font-family: roboto, sans-serif; 
     color: rgb(37, 37, 37);
     text-align-last: center;
@@ -9,23 +9,15 @@
     padding-top: 3rem; 
     
   }
-/* TRABAJOS */
-  .tituloTrabajos {
 
-    font-family: roboto, sans-serif; 
-    color: rgb(37, 37, 37);
-    text-align-last: center;
-    margin:2rem;
-    padding-top: 3rem; 
-    
- }
   
 .titulo__secciones__trabajo{
   font-family:roboto, sans-serif;
   text-align: center;}
 
-  
+ 
 
+ 
   /* BIO */
 
   .tituloBio{
@@ -56,22 +48,8 @@
    }
    
 
-/* Contacto */
-   .tituloContacto{
-    font-family: roboto, sans-serif; 
-    color: rgb(37, 37, 37);
-    text-align-last: center;
-    margin:2rem;
-    padding-top: 3rem; 
-  }
-/* VIDEOS */
-  .tituloVideos{
-    font-family: roboto, sans-serif; 
-    color: rgb(37, 37, 37);
-    text-align-last: center;
-    margin:2rem;
-    padding-top: 3rem; 
-  }
+
+
 
 
   /* Titulo de la seccion Video , trabajos y proyectos del media query */

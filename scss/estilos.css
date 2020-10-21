@@ -39,53 +39,14 @@
   border-radius: 2px;
 }
 
-@media screen and (max-width: 768px) {
-  .navegador {
-    height: 56px;
-    background-color: white;
-    position: fixed;
-    bottom: 0;
-    display: grid;
-    grid-template-rows: 100%;
-    grid-auto-columns: 20% 20% 25% 15%;
-    grid-template-areas: "video trabajos proyectos bio contacto";
-    grid-column-gap: 0px;
-  }
-  .navegador a {
-    color: #131212;
-    font-size: 11px;
-    font-family: Roboto, sans-serif;
-    display: inline;
-  }
-  #nav__click {
-    padding: none;
-    border-radius: none;
-  }
-  .home {
-    display: none;
-  }
-  .tituloVideos h2 {
-    font-size: 16px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .NataliaTitulo {
     display: none;
   }
 }
 
-/* PROYECTOS */
-.TituloProyectos {
-  font-family: roboto, sans-serif;
-  color: #252525;
-  text-align-last: center;
-  margin: 2rem;
-  padding-top: 3rem;
-}
-
-/* TRABAJOS */
-.tituloTrabajos {
+/* titulo de video, trabajos, proyectos, contacto*/
+.titulo__principal {
   font-family: roboto, sans-serif;
   color: #252525;
   text-align-last: center;
@@ -120,24 +81,6 @@
 /* TITULO DE SECCION BIOMAS Y HUNTER */
 h1 {
   font-family: roboto, sans-serif;
-}
-
-/* Contacto */
-.tituloContacto {
-  font-family: roboto, sans-serif;
-  color: #252525;
-  text-align-last: center;
-  margin: 2rem;
-  padding-top: 3rem;
-}
-
-/* VIDEOS */
-.tituloVideos {
-  font-family: roboto, sans-serif;
-  color: #252525;
-  text-align-last: center;
-  margin: 2rem;
-  padding-top: 3rem;
 }
 
 /* Titulo de la seccion Video , trabajos y proyectos del media query */
@@ -348,6 +291,37 @@ h1 {
     border-left: none;
     border-top: none;
     text-transform: capitalize;
+  }
+  /* MEDIA DEL NAVEGADOR DE LAS SECCIONES */
+  .navegador {
+    height: 56px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-auto-columns: 20% 20% 25% 15%;
+    grid-template-areas: "video trabajos proyectos bio contacto";
+    grid-column-gap: 0px;
+  }
+  .navegador a {
+    color: #131212;
+    font-size: 11px;
+    font-family: Roboto, sans-serif;
+    display: inline;
+  }
+  #nav__click {
+    padding: none;
+    border-radius: none;
+  }
+  .home {
+    display: none;
+  }
+  .titulo__principal {
+    margin-top: auto;
+  }
+  .titulo__principal h2 {
+    font-size: 16px;
   }
 }
 

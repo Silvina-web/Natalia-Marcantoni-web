@@ -212,7 +212,52 @@ border-left: none;
  border-top: none;
  text-transform: capitalize;
 } 
+
+/* MEDIA DEL NAVEGADOR DE LAS SECCIONES */
+.navegador{
+      
+    height: 56px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom:0;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-auto-columns: 20% 20% 25% 15%;
+    grid-template-areas:"video trabajos proyectos bio contacto";
+    grid-column-gap: 0px; 
+     
+     a{
+        color:$coloresFuentes;
+        font-size: 11px;
+        font-family: Roboto, sans-serif;
+        display: inline;
+
+         }
+
 }
+#nav__click{
+    padding: none;
+    border-radius: none;
+    
+    }
+    
+    .home{
+              display: none;
+        
+    }
+    .titulo__principal{
+        margin-top: auto;
+         h2{
+            font-size: 16px;
+           
+           }
+    }
+    
+
+  }
+    
+
+
 
 
   /*BIO-----------------------BIO---------------------------BIO------------------------BIO---------------------BIO--------------------BIO-------------------------BIO-------------------------------------------------------------------------------*/
@@ -226,15 +271,8 @@ border-left: none;
   .claseP {
     color: rgb(0, 0, 0);
   }
- 
- 
-  
- 
-  /* PROYECTOS  -----------------PROYECTOS---------------------PROYECTOS-------------------PROYECTOS-------------------------------PROYECTOS-------------------------------------------------------------*/
-  
- 
-  
-  .contenedorProyectos {
+ /* PROYECTOS  -----------------PROYECTOS---------------------PROYECTOS-------------------PROYECTOS-------------------------------PROYECTOS-------------------------------------------------------------*/
+   .contenedorProyectos {
     width:100vw;
    height: 80vh;  
     display: flex;
@@ -243,9 +281,7 @@ border-left: none;
     justify-content: space-around;
     align-items: center;
     
-    
-
-    img{
+  img{
       border-radius: $border-radius;
       box-shadow:$box-shadow;
       width: 350px;
