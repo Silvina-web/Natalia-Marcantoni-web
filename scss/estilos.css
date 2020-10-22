@@ -218,6 +218,32 @@ h1 {
 
 /* MEDIA INDEX--------------------------MEDIA INDEX----------------------MEDIA INDEX-----------------------------MEDIA INDEX------------------------------------------------- */
 @media screen and (max-width: 768px) {
+  .titulo__secciones__trabajo {
+    font-size: 11px;
+  }
+  .titulo__secciones__trabajo h2 {
+    font-size: 17px;
+  }
+  .header__hunterYbiomas {
+    font-size: 11px;
+  }
+  .header__hunterYbiomas h1 {
+    font-size: 17px;
+  }
+  .containerFotoHunterYbiomas {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    /* justify-content: space-around;
+  margin-top: 3rem; */
+  }
+  .containerFotoHunterYbiomas .img__hYb {
+    margin: 2rem;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px cornsilk;
+    height: 75vh;
+  }
   .imagenFondoIndex {
     background-image: none;
     background-color: white;
@@ -231,7 +257,7 @@ h1 {
   }
   .grid {
     width: 100%;
-    height: 56px;
+    height: 50px;
     background-color: white;
     position: fixed;
     bottom: 0;
@@ -249,7 +275,7 @@ h1 {
   }
   #fotoYvideo {
     display: inline;
-    border-color: #adadad;
+    border-color: #dfdfdf;
     border-radius: 2px;
     border-left: none;
     border-top: none;
@@ -258,7 +284,7 @@ h1 {
   }
   #trabajos {
     display: inline;
-    border-color: #adadad;
+    border-color: #dfdfdf;
     border-radius: 2px;
     padding-top: 20%;
     border-left: none;
@@ -267,7 +293,7 @@ h1 {
   }
   #proyectos {
     display: inline;
-    border-color: #adadad;
+    border-color: #dfdfdf;
     border-radius: 2px;
     padding-top: 20%;
     border-left: none;
@@ -276,7 +302,7 @@ h1 {
   }
   #bio {
     display: inline-block;
-    border-color: #adadad;
+    border-color: #dfdfdf;
     border-radius: 2px;
     padding-top: 20%;
     border-left: none;
