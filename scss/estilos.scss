@@ -128,245 +128,7 @@
   }
 
 }
- /* MEDIA INDEX--------------------------MEDIA INDEX----------------------MEDIA INDEX-----------------------------MEDIA INDEX------------------------------------------------- */
  
-@media  screen and (max-width: 768px) {
-
-    * {
-        margin: 0;
-        padding: 0;
-       box-sizing: border-box;
-      } 
-
-     
-      .contenedorProyectos {
-        width:80vw;
-        height: 50vh;  
-        display: flex;
-        /* flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center; */
-        
-    /*   img{
-          border-radius: $border-radius;
-          box-shadow:$box-shadow;
-          width: 300px;
-        } */
-        
-       figure {
-          position: relative;
-         overflow: visible;   
-        height: 75%;
-         width:55%; 
-         /*  border-radius: 3px;
-          box-shadow: 5px 5px 20px rgb(190, 190, 190);
-          margin-bottom: 20rem;
-          border: 1px solid red;  */
-      
-           .textoBiomas {
-             position: absolute; 
-            top: 0;  
-            width: 10%;
-            height: 50%;  
-            background-color: rgba(255, 255, 255, 0.863);  
-            opacity: 0;
-            transition: all 500ms ease-out;
-            visibility: visible;
-            text-align: center; 
-           /*  padding-top: 10rem; */
-            font-family: roboto, sans-serif;
-            
-            
-          
-      
-          &:hover > .textoBiomas {
-            opacity: 1;
-            visibility: visible;
-          } 
-        }
-      }
-    }
-        
-      
-      
-
-
-      .header__hunterYbiomas{
-         position: fixed;
-         right: 17%;
-        
-      }
-
-.titulo__secciones__trabajo{
-    font-size: 11px;
-h2{
-    font-size: 17px;
-}
-}
-
-  .header__hunterYbiomas{
-
-     font-size: 11px;
-     h1{
-         font-size: 17px;
-     }
- }
-
-.containerFotoHunterYbiomas{
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  /* flex-wrap: nowrap; */
-  /* justify-content: space-around;
-  margin-top: 3rem; */
-.img__hYb {
-  margin:2rem;
-  border-radius: 2px;
-  box-shadow: 2px 2px 5px cornsilk;
-  height: 75vh;
- 
- }
-}
-
- 
-  .imagenFondoIndex {
-    background-image: none; 
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-
-  }
-  .titulo{
-    /* word-spacing:20px; */
-    font-size: 20px;
-    line-height: 50px;
-    text-align: center;
-    
-  }
-  .grid{
-    width: 100%;
-    height: 50px;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    bottom:0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "fotoYvideo proyectos trabajos bio contacto";
-    grid-column-gap:0px;
-   
-   
-}
-.secciones{
-  
-  color:$coloresFuentes;
-  flex-grow: 1;
-  font-size: 11px;
-  padding-top: 20px;
-  font-family: Roboto, sans-serif;
-  
-}
-
- #fotoYvideo{
-display: inline;
-  
-border-color: rgb(223, 223, 223);  
-border-radius: 2px;
-border-left: none;
- border-top: none;
- padding-top: 20%;
- text-transform: capitalize;
-  
-  
-  
-}
-#trabajos{
-  display: inline;
-  border-color: rgb(223, 223, 223);
-  border-radius: 2px;
-  padding-top: 20%;
-  border-left: none;
- border-top: none;
- text-transform: capitalize;
- 
-  
-}
-#proyectos{
-  display: inline;
-  border-color: rgb(223, 223, 223);
-  border-radius: 2px;
-  padding-top: 20%;
-  border-left: none;
- border-top: none;
- text-transform: capitalize;
-}
-#bio{
-  display: inline-block;
-  border-color: rgb(223, 223, 223);
-  border-radius: 2px;
-  padding-top: 20%;
-  border-left: none;
- border-top: none;
- text-transform: capitalize;
-}
-#contacto{
-  display: inline;
-  border-color: rgb(173, 173, 173);
-  border-radius: 2px;
-  padding-top: 20%;
- border-left: none;
- border-top: none;
- text-transform: capitalize;
-} 
-
-/* MEDIA DEL NAVEGADOR DE LAS SECCIONES */
-.navegador{
-      
-    height: 56px;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    bottom:0;
-    display: grid;
-    grid-template-rows: 100%;
-    grid-auto-columns: 20% 20% 25% 15%;
-    grid-template-areas:"video trabajos proyectos bio contacto";
-    grid-column-gap: 0px; 
-     
-     a{
-        color:$coloresFuentes;
-        font-size: 11px;
-        font-family: Roboto, sans-serif;
-        display: inline;
-
-         }
-
-}
-#nav__click{
-    padding: none;
-    border-radius: none;
-    
-    }
-    
-    .home{
-              display: none;
-        
-    }
-    .titulo__principal{
-        margin-top: auto;
-         h2{
-            font-size: 16px;
-           
-           }
-    }
-   
-
- 
-      
-      }
-    
-     
-  
-
-
 
 
 
@@ -384,7 +146,7 @@ border-left: none;
  /* PROYECTOS  -----------------PROYECTOS---------------------PROYECTOS-------------------PROYECTOS-------------------------------PROYECTOS-------------------------------------------------------------*/
    .contenedorProyectos {
     width:100vw;
-    height: 60vh;  
+    height: 70vh;  
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -451,7 +213,7 @@ left: 17%;
  }
 
 .containerFotoHunterYbiomas{
-  width: fit-content;
+  width: fit-content; 
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -570,4 +332,201 @@ left: 17%;
    
   }
 }
+
+/* MEDIA --------------------------MEDIA ---------------------MEDIA ----------------------------MEDIA INDEX------------------------------------------------- */
+ 
+@media  screen and (max-width: 768px) {
+  /* media proyectos */
+      .contenedorProyectos {
+          width:80vw;
+          height: 50vh;  
+          display: flex;
+          
+           figure {
+            position: relative;
+           overflow: visible;   
+           height: 75%;
+           width:55%;  
+          
+             .textoBiomas {
+              position: absolute; 
+              top: 0;
+              
+              
+          }
+        }
+      }
+          
+       /* media seccion Hunter Y biomas */ 
+       .containerFotoHunterYbiomas{
+        display: flex;
+        flex-direction:column;
+         
+          
+        .img__hYb {
+          margin:2rem;
+          border-radius: 2px;
+          box-shadow: 2px 2px 5px cornsilk;
+          height: 75vh; 
+         
+         }
+        }
+        
+  
+      .header__hunterYbiomas{
+           position: fixed;
+            right: 17%; 
+            font-size: 11px;
+            h1{
+              font-size: 17px;
+            }
+          
+        }
+  
+  
+  
+  /* Media  trabajos*/
+  .titulo__secciones__trabajo{
+      font-size: 11px;
+  h2{
+      font-size: 17px;
+  }
+  }
+  
+     /* media index */
+    .imagenFondoIndex {
+      background-image: none; 
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+  
+    }
+    .titulo{
+      /* word-spacing:20px; */
+      font-size: 20px;
+      line-height: 50px;
+      text-align: center;
+      
+    }
+    .grid{
+      width: 100%;
+      height: 50px;
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+      bottom:0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas: "fotoYvideo proyectos trabajos bio contacto";
+      grid-column-gap:0px;
+     
+     
+  }
+  .secciones{
+    
+    color:$coloresFuentes;
+    flex-grow: 1;
+    font-size: 11px;
+    padding-top: 20px;
+    font-family: Roboto, sans-serif;
+    
+  }
+  
+   #fotoYvideo{
+  display: inline;
+    
+  border-color: rgb(223, 223, 223);  
+  border-radius: 2px;
+  border-left: none;
+   border-top: none;
+   padding-top: 20%;
+   text-transform: capitalize;
+    
+    
+    
+  }
+  #trabajos{
+    display: inline;
+    border-color: rgb(223, 223, 223);
+    border-radius: 2px;
+    padding-top: 20%;
+    border-left: none;
+   border-top: none;
+   text-transform: capitalize;
+   
+    
+  }
+  #proyectos{
+    display: inline;
+    border-color: rgb(223, 223, 223);
+    border-radius: 2px;
+    padding-top: 20%;
+    border-left: none;
+   border-top: none;
+   text-transform: capitalize;
+  }
+  #bio{
+    display: inline-block;
+    border-color: rgb(223, 223, 223);
+    border-radius: 2px;
+    padding-top: 20%;
+    border-left: none;
+   border-top: none;
+   text-transform: capitalize;
+  }
+  #contacto{
+    display: inline;
+    border-color: rgb(173, 173, 173);
+    border-radius: 2px;
+    padding-top: 20%;
+   border-left: none;
+   border-top: none;
+   text-transform: capitalize;
+  } 
+  
+  /* MEDIA DEL NAVEGADOR DE LAS SECCIONES */
+  .navegador{
+        
+      height: 56px;
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+      bottom:0;
+      display: grid;
+      grid-template-rows: 100%;
+      grid-auto-columns: 20% 20% 25% 15%;
+      grid-template-areas:"video trabajos proyectos bio contacto";
+      grid-column-gap: 0px; 
+       
+       a{
+          color:$coloresFuentes;
+          font-size: 11px;
+          font-family: Roboto, sans-serif;
+          display: inline;
+  
+           }
+  
+  }
+  #nav__click{
+      padding: none;
+      border-radius: none;
+      
+      }
+      
+      .home{
+                display: none;
+          
+      }
+      .titulo__principal{
+          margin-top: auto;
+           h2{
+              font-size: 16px;
+             
+             }
+      }
+     
+  
+   
+        
+        }
+      
+       
+   /* ACA TERMINA EL MEDIA */ 
 
