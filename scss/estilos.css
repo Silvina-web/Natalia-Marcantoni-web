@@ -218,6 +218,18 @@ h1 {
 
 /* MEDIA INDEX--------------------------MEDIA INDEX----------------------MEDIA INDEX-----------------------------MEDIA INDEX------------------------------------------------- */
 @media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header__hunterYbiomas {
+    position: fixed;
+    right: 17%;
+  }
+  .header__hunterYbiomas p {
+    text-align: center;
+  }
   .titulo__secciones__trabajo {
     font-size: 11px;
   }
@@ -367,7 +379,7 @@ p {
 /* PROYECTOS  -----------------PROYECTOS---------------------PROYECTOS-------------------PROYECTOS-------------------------------PROYECTOS-------------------------------------------------------------*/
 .contenedorProyectos {
   width: 100vw;
-  height: 80vh;
+  height: 60vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -419,6 +431,8 @@ p {
 .header__hunterYbiomas {
   color: #131212;
   text-align: center;
+  position: fixed;
+  left: 17%;
 }
 
 .containerFotoHunterYbiomas {
@@ -428,6 +442,7 @@ p {
   flex-wrap: nowrap;
   justify-content: space-around;
   margin-top: 3rem;
+  padding-top: 7rem;
 }
 
 .containerFotoHunterYbiomas .img__hYb {
