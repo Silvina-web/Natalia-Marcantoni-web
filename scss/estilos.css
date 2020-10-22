@@ -223,12 +223,50 @@ h1 {
     padding: 0;
     box-sizing: border-box;
   }
+  .contenedorProyectos {
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    /* flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center; */
+    /*   img{
+          border-radius: $border-radius;
+          box-shadow:$box-shadow;
+          width: 300px;
+        } */
+  }
+  .contenedorProyectos figure {
+    position: relative;
+    overflow: visible;
+    height: 75%;
+    width: 55%;
+    /*  border-radius: 3px;
+          box-shadow: 5px 5px 20px rgb(190, 190, 190);
+          margin-bottom: 20rem;
+          border: 1px solid red;  */
+  }
+  .contenedorProyectos figure .textoBiomas {
+    position: absolute;
+    top: 0;
+    width: 10%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.863);
+    opacity: 1;
+    transition: all 500ms ease-out;
+    visibility: visible;
+    text-align: center;
+    padding-top: 3rem;
+    font-family: roboto, sans-serif;
+  }
+  .contenedorProyectos figure .textoBiomas:hover > .textoBiomas {
+    opacity: 1;
+    visibility: visible;
+  }
   .header__hunterYbiomas {
     position: fixed;
     right: 17%;
-  }
-  .header__hunterYbiomas p {
-    text-align: center;
   }
   .titulo__secciones__trabajo {
     font-size: 11px;
