@@ -372,6 +372,10 @@ p {
 }
 
 /* VIDEOS---------------VIDEOS--------------VIDEOS */
+.contenedor__trayectorias {
+  text-align: center;
+}
+
 .Contenedor__youtube {
   display: flex;
   flex-direction: row;

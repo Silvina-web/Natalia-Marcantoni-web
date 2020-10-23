@@ -305,6 +305,10 @@ left: 17%;
 
 /* VIDEOS---------------VIDEOS--------------VIDEOS */
 
+.contenedor__trayectorias{
+    text-align: center;
+}
+
 .Contenedor__youtube{
   display: flex;
   flex-direction:row;
@@ -328,6 +332,7 @@ left: 17%;
    
   iframe{
     margin: 1rem;
+    
    
   }
 }
