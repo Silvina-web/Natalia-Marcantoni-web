@@ -280,11 +280,11 @@ p {
 }
 
 .header__hunterYbiomas {
-  width: 35rem;
+  /*  width:35rem; */
   color: #131212;
   text-align: center;
-  position: fixed;
-  left: 30%;
+  /* position: fixed; 
+ left: 30%; */
 }
 
 .containerFotoHunterYbiomas {
@@ -293,8 +293,8 @@ p {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  margin-top: 3rem;
-  padding-top: 7rem;
+  margin-top: 1rem;
+  padding-top: 2rem;
 }
 
 .containerFotoHunterYbiomas .img__h {
@@ -505,8 +505,6 @@ p {
     height: 75vh;
   }
   .header__hunterYbiomas {
-    border: 1px solid red;
-    width: 12rem;
     font-size: 11px;
   }
   .header__hunterYbiomas h1 {
