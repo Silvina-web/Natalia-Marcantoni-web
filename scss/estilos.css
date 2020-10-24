@@ -434,18 +434,6 @@ p {
   box-shadow: 2px 2px 3px #dfdfdf;
 }
 
-.contenedor__vimeo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 3rem;
-}
-
-.contenedor__vimeo iframe {
-  margin: 1rem;
-}
-
 /* MEDIA --------------------------MEDIA ---------------------MEDIA ----------------------------MEDIA INDEX------------------------------------------------- */
 @media screen and (min-width: 768px) {
   .NataliaTitulo {

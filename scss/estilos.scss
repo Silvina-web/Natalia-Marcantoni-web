@@ -372,21 +372,10 @@ display: flex;
   }
 }
 
-.contenedor__vimeo{
-   display: flex;
-  flex-direction:row;
-  flex-wrap:wrap;
-  justify-content: space-around;
-  margin-top: 3rem;
-   
-  iframe{
-    margin: 1rem;
+
     
    
-  }
-}
-
-/* MEDIA --------------------------MEDIA ---------------------MEDIA ----------------------------MEDIA INDEX------------------------------------------------- */
+  /* MEDIA --------------------------MEDIA ---------------------MEDIA ----------------------------MEDIA INDEX------------------------------------------------- */
 @media screen and (min-width: 768px){
   .NataliaTitulo{
       display: none;
