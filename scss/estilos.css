@@ -240,7 +240,7 @@ p {
 
 .contenedorProyectos img {
   border-radius: 2px;
-  box-shadow: 2px 2px 3px #dfdfdf;
+  box-shadow: 1px 1px 2px #dfdfdf;
   width: 350px;
 }
 
@@ -328,7 +328,7 @@ p {
   width: 300px;
   margin: 1rem;
   border-radius: 2px;
-  box-shadow: 2px 2px 3px #dfdfdf;
+  box-shadow: 1px 1px 2px #dfdfdf;
 }
 
 .Contenedor__flexTrabajos1 .cajaFoto .textoTrabajos {
@@ -366,7 +366,7 @@ p {
   width: 300px;
   margin: 1rem;
   border-radius: 2px;
-  box-shadow: 2px 2px 3px #dfdfdf;
+  box-shadow: 1px 1px 2px #dfdfdf;
 }
 
 .contenedor__flexTrabajos2 .cajaFoto .textoTrabajos {
@@ -431,7 +431,7 @@ p {
 .Contenedor__youtube iframe {
   margin: 1rem;
   border-radius: 2px;
-  box-shadow: 2px 2px 3px #dfdfdf;
+  box-shadow: 1px 1px 2px #dfdfdf;
 }
 
 /* MEDIA --------------------------MEDIA ---------------------MEDIA ----------------------------MEDIA INDEX------------------------------------------------- */
@@ -455,7 +455,7 @@ p {
   }
   .contenedorProyectos img {
     border-radius: 2px;
-    box-shadow: 2px 2px 3px #dfdfdf;
+    box-shadow: 1px 1px 2px #dfdfdf;
     width: 350px;
   }
   .contenedorProyectos figure {
@@ -464,7 +464,7 @@ p {
     height: 70%;
     width: 55%;
     border-radius: 3px;
-    box-shadow: 5px 5px 20px #bebebe;
+    /*  box-shadow: 5px 5px 20px rgb(190, 190, 190); */
     /* margin-bottom: 20rem; */
   }
   .contenedorProyectos figure .textoBiomas {
@@ -531,7 +531,7 @@ p {
     width: 300px;
     margin: 1rem;
     border-radius: 2px;
-    box-shadow: 2px 2px 3px #dfdfdf;
+    box-shadow: 1px 1px 2px #dfdfdf;
   }
   .Contenedor__flexTrabajos1 .cajaFoto .textoTrabajos {
     position: absolute;
@@ -564,7 +564,7 @@ p {
     width: 300px;
     margin: 1rem;
     border-radius: 2px;
-    box-shadow: 2px 2px 3px #dfdfdf;
+    box-shadow: 1px 1px 2px #dfdfdf;
   }
   .contenedor__flexTrabajos2 .cajaFoto .textoTrabajos {
     position: absolute;
