@@ -210,12 +210,6 @@ h1 {
   border: 2px solid #ececf1;
 }
 
-@media screen and (min-width: 768px) {
-  .NataliaTitulo {
-    display: none;
-  }
-}
-
 /*BIO-----------------------BIO---------------------------BIO------------------------BIO---------------------BIO--------------------BIO-------------------------BIO-------------------------------------------------------------------------------*/
 .container-fluid {
   margin-top: 3rem;
@@ -227,6 +221,10 @@ p {
 
 .claseP {
   color: black;
+}
+
+.tituloBio img {
+  width: 90%;
 }
 
 /* PROYECTOS  -----------------PROYECTOS---------------------PROYECTOS-------------------PROYECTOS-------------------------------PROYECTOS-------------------------------------------------------------*/
@@ -282,10 +280,11 @@ p {
 }
 
 .header__hunterYbiomas {
+  width: 35rem;
   color: #131212;
   text-align: center;
   position: fixed;
-  left: 17%;
+  left: 30%;
 }
 
 .containerFotoHunterYbiomas {
@@ -298,7 +297,14 @@ p {
   padding-top: 7rem;
 }
 
-.containerFotoHunterYbiomas .img__hYb {
+.containerFotoHunterYbiomas .img__h {
+  margin: 2rem;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px cornsilk;
+  height: 75vh;
+}
+
+.containerFotoHunterYbiomas .img__b {
   margin: 2rem;
   border-radius: 2px;
   box-shadow: 2px 2px 5px cornsilk;
@@ -441,6 +447,12 @@ p {
 }
 
 /* MEDIA --------------------------MEDIA ---------------------MEDIA ----------------------------MEDIA INDEX------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  .NataliaTitulo {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
   /* media proyectos */
   .contenedorProyectos {
@@ -489,15 +501,24 @@ p {
     display: flex;
     flex-direction: column;
   }
-  .containerFotoHunterYbiomas .img__hYb {
+  .containerFotoHunterYbiomas .img__h {
+    width: 300px;
+    height: 200px;
     margin: 2rem;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px cornsilk;
+    /*  height: 75vh;  
+           width: 85wh; */
+  }
+  .containerFotoHunterYbiomas .img__b {
+    margin: 1rem;
     border-radius: 2px;
     box-shadow: 2px 2px 5px cornsilk;
     height: 75vh;
   }
   .header__hunterYbiomas {
-    position: fixed;
-    right: 17%;
+    border: 1px solid red;
+    width: 12rem;
     font-size: 11px;
   }
   .header__hunterYbiomas h1 {

@@ -121,14 +121,7 @@
     border: 2px solid rgb(236, 236, 241);
   }
 }
-@media screen and (min-width: 768px){
-  .NataliaTitulo{
-      display: none;
-      
-  }
 
-}
- 
 
 
 
@@ -142,6 +135,13 @@
   }
   .claseP {
     color: rgb(0, 0, 0);
+  }
+
+  .tituloBio{
+    img{
+      width: 90%;
+      
+    }
   }
  /* PROYECTOS  -----------------PROYECTOS---------------------PROYECTOS-------------------PROYECTOS-------------------------------PROYECTOS-------------------------------------------------------------*/
    .contenedorProyectos {
@@ -200,17 +200,16 @@
  }
 
 .header__hunterYbiomas{
-   
-color:$coloresFuentes;
+  width:35rem;
+  
+ color:$coloresFuentes;
  text-align: center;
- 
-position: fixed;
-left: 17%;
+ position: fixed; 
+ left: 30%;
+  
 
 
- 
- 
- }
+}
 
 .containerFotoHunterYbiomas{
   width: fit-content; 
@@ -220,14 +219,27 @@ left: 17%;
   justify-content: space-around;
   margin-top: 3rem;
   padding-top: 7rem;
-.img__hYb {
+.img__h {
   margin:2rem;
   border-radius: 2px;
   box-shadow: 2px 2px 5px cornsilk;
   height: 75vh;
  
- }
+ }  
+
+ .img__b {
+  margin:2rem;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px cornsilk;
+  height: 75vh;
+ 
+ }  
+
+
+
 }
+
+
 
 
   /* TRABAJOS ------------------TRABAJOS---------------------------TRABAJOS--------------------------TRABAJOS--------------TRABAJOS---------------------------------------------------------------------*/
@@ -375,7 +387,18 @@ display: flex;
 }
 
 /* MEDIA --------------------------MEDIA ---------------------MEDIA ----------------------------MEDIA INDEX------------------------------------------------- */
+@media screen and (min-width: 768px){
+  .NataliaTitulo{
+      display: none;
+      
+  }
+
+}
  
+
+
+
+
 @media  screen and (max-width: 768px) {
   /* media proyectos */
       .contenedorProyectos {
@@ -433,24 +456,34 @@ display: flex;
         flex-direction:column;
          
           
-        .img__hYb {
+        .img__h {
+          width:300px;
+          height: 200px;
           margin:2rem;
+          border-radius: 2px;
+          box-shadow: 2px 2px 5px cornsilk;
+          /*  height: 75vh;  
+           width: 85wh; */
+         
+         }
+         .img__b {
+          margin:1rem;
           border-radius: 2px;
           box-shadow: 2px 2px 5px cornsilk;
           height: 75vh; 
          
          }
         }
-        
-   .header__hunterYbiomas{
-           position: fixed;
-            right: 17%; 
-            font-size: 11px;
+
+.header__hunterYbiomas{
+  border: 1px solid red;
+  width:12rem;
+   font-size: 11px;
             h1{
               font-size: 17px;
             }
           
-        }
+        } 
   
   /* Media  trabajos*/
   .titulo__secciones__trabajo{
