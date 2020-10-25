@@ -491,6 +491,7 @@ p {
   }
   /* media seccion Hunter Y biomas */
   .containerFotoHunterYbiomas {
+    margin: auto;
     display: flex;
     flex-direction: column;
   }
@@ -508,7 +509,8 @@ p {
     border-radius: 2px;
     box-shadow: 2px 2px 5px cornsilk;
     /* height: 70vh;  */
-    width: auto;
+    width: 295px;
+    text-align: center;
   }
   .header__hunterYbiomas {
     font-size: 11px;

@@ -453,8 +453,11 @@ display: flex;
           
        /* media seccion Hunter Y biomas */ 
        .containerFotoHunterYbiomas{
+          margin:auto;
+           
         display: flex;
         flex-direction:column;
+        
          
           
         .img__h {
@@ -468,11 +471,14 @@ display: flex;
          
          }
          .img__b {
+            
+            
           margin:1rem;
           border-radius: 2px;
           box-shadow: 2px 2px 5px cornsilk;
           /* height: 70vh;  */
-          width: auto;
+          width: 295px;
+          text-align: center;
 
          
          }
