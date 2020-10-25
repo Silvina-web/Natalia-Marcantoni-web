@@ -212,7 +212,7 @@ h1 {
 
 /*BIO-----------------------BIO---------------------------BIO------------------------BIO---------------------BIO--------------------BIO-------------------------BIO-------------------------------------------------------------------------------*/
 .container {
-  border: 1px solid red;
+  width: 1000px;
   margin-top: 5rem;
 }
 
@@ -282,6 +282,7 @@ p {
 
 .header__hunterYbiomas {
   /*  width:35rem; */
+  margin-top: 3rem;
   color: #131212;
   text-align: center;
   /* position: fixed; 
@@ -418,6 +419,7 @@ p {
 
 /* VIDEOS---------------VIDEOS--------------VIDEOS */
 .contenedor__trayectorias {
+  margin-top: 5rem;
   text-align: center;
 }
 
@@ -433,6 +435,8 @@ p {
   margin: 1rem;
   border-radius: 2px;
   box-shadow: 1px 1px 2px #dfdfdf;
+  /*  padding-left: 6rem;
+     padding-right: 6rem; */
 }
 
 /* MEDIA --------------------------MEDIA ---------------------MEDIA ----------------------------MEDIA INDEX------------------------------------------------- */

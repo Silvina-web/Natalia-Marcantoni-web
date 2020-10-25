@@ -127,7 +127,8 @@
 
  /*BIO-----------------------BIO---------------------------BIO------------------------BIO---------------------BIO--------------------BIO-------------------------BIO-------------------------------------------------------------------------------*/
   .container{
-    border:1px solid red;
+    width: 1000px;
+    
     margin-top: 5rem;
   }
   
@@ -205,6 +206,7 @@
 
 .header__hunterYbiomas{
  /*  width:35rem; */
+ margin-top: 3rem;
   color:$coloresFuentes;
  text-align: center;
  /* position: fixed; 
@@ -359,10 +361,14 @@ display: flex;
 /* VIDEOS---------------VIDEOS--------------VIDEOS */
 
 .contenedor__trayectorias{
+    margin-top: 5rem;
     text-align: center;
+    
 }
 
 .Contenedor__youtube{
+ 
+   
   display: flex;
   flex-direction:row;
   flex-wrap:wrap;
@@ -370,9 +376,11 @@ display: flex;
   margin-top: 3rem;
    
   iframe{
-    margin: 1rem;
+     margin: 1rem; 
     border-radius:$border-radius;
      box-shadow:  $box-shadow;
+    /*  padding-left: 6rem;
+     padding-right: 6rem; */
   }
 }
 
