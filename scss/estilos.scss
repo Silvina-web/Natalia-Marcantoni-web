@@ -126,14 +126,16 @@
 
 
  /*BIO-----------------------BIO---------------------------BIO------------------------BIO---------------------BIO--------------------BIO-------------------------BIO-------------------------------------------------------------------------------*/
-  .container-fluid {
-    margin-top: 3rem;
+  .container{
+    border:1px solid red;
+    margin-top: 5rem;
   }
   
   p {
     color: rgb(32, 32, 31);
   }
   .claseP {
+      
     color: rgb(0, 0, 0);
   }
 
@@ -450,7 +452,7 @@ display: flex;
         .img__h {
           width:300px;
           height: 200px;
-          margin:2rem;
+          margin:auto;
           border-radius: 2px;
           box-shadow: 2px 2px 5px cornsilk;
           /*  height: 75vh;  
@@ -458,10 +460,12 @@ display: flex;
          
          }
          .img__b {
-          margin:1rem;
+          margin:auto;
           border-radius: 2px;
           box-shadow: 2px 2px 5px cornsilk;
-          height: 75vh; 
+          /* height: 70vh;  */
+          width: auto;
+
          
          }
         }
