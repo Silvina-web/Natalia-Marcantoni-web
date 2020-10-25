@@ -211,8 +211,9 @@ h1 {
 }
 
 /*BIO-----------------------BIO---------------------------BIO------------------------BIO---------------------BIO--------------------BIO-------------------------BIO-------------------------------------------------------------------------------*/
-.container-fluid {
-  margin-top: 3rem;
+.container {
+  border: 1px solid red;
+  margin-top: 5rem;
 }
 
 p {
@@ -490,9 +491,9 @@ p {
     flex-direction: column;
   }
   .containerFotoHunterYbiomas .img__h {
-    width: 300px;
-    height: 200px;
-    margin: 2rem;
+    width: 295px;
+    height: 195px;
+    margin: 1rem;
     border-radius: 2px;
     box-shadow: 2px 2px 5px cornsilk;
     /*  height: 75vh;  
@@ -502,7 +503,8 @@ p {
     margin: 1rem;
     border-radius: 2px;
     box-shadow: 2px 2px 5px cornsilk;
-    height: 75vh;
+    /* height: 70vh;  */
+    width: auto;
   }
   .header__hunterYbiomas {
     font-size: 11px;
