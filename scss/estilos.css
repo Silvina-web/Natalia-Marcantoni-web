@@ -25,7 +25,7 @@
 
 .home {
   /* margin-left: 1rem; */
-  margin-top: 5rem;
+  margin-top: 2rem;
   position: fixed;
   top: 0;
   /* background-color:rgb(255, 255, 255); */
@@ -49,7 +49,7 @@
 }
 
 .titulo__secciones__trabajo {
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-family: roboto, sans-serif;
   text-align: center;
 }
