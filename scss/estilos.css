@@ -447,6 +447,9 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    margin-top: 2rem;
+  }
   /* media proyectos */
   .contenedorProyectos {
     width: 80vw;
