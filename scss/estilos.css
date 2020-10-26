@@ -447,6 +447,7 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  /* Bootstrap seccion trabajps */
   .container {
     margin-top: 2rem;
   }
